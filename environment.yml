@@ -1,0 +1,18 @@
+name: OpenBeta
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - psychopy
+  - pip
+  - python=3.9
+  - jupyter
+  - pip:
+    - mne
+    - mne_bids
+    - pybv
+    - brainflow
+    - psychtoolbox
+    - soundfile
+    - pynput
+    - keyboard
